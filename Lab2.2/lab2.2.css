@@ -1,0 +1,67 @@
+body {
+    background-image: url("img lab2.2/navvis-factory-planning2-image1.png");
+    font-family: 'Poppins', sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}
+h1 {
+    text-align: center;
+    color: #F49742;
+    font-size: 96px;
+    line-height: normal;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.line {
+    background-color: #F49742;
+    width: 120px;
+    height: 8px;
+    border: none;
+}
+h2 {
+    font-family: none;
+    text-align: center;
+    color: white;
+}
+h4 {
+    font-weight: lighter;
+}
+h3 {
+    font-weight: lighter;
+}
+h5 {
+    color: white;
+    text-align: center;
+    
+    
+    
+}
+.container {
+    background-color: white;
+    text-align: center;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+.box {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    margin: 1% 1.45% 1.45% 1.45%;
+}
+.bot {
+    background-color: gray;
+    height: 28.4%;
+}
+a {
+    color: white;
+}
+.number:hover::after {
+    content: " - Do not call";
+  }
+.Email {
+    color: black;
+    font-weight: bold;
+}
+
