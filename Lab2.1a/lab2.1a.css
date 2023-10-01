@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 100 100 100 100;
+    padding: 0;
+
+}
+.img1 {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url(staff/pexels-harry-shum-12694483.jpg);
+    margin: 20px;
+} 
+     
+.img2 {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url(staff/pexels-mohamed-abdelsadig-3196486.jpg);
+    margin: 20px;
+}
+.img3 {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url(staff/pexels-photo-3914752.jpg);
+    margin: 20px;
+}
+.empty {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 43%;
+}
+.container {
+    height: 90%;
+    width: 90%;
+}
+.text {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(207, 207, 207);
+    border-radius: 25px;
+    width: 20%;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.fix {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 23%;
+}
+.but {
+    background-color: greenyellow;
+    height: 28px;
+    width: 100px;
+    border-radius: 15px;
+}
+span {
+    float: right;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+p {
+    font-size: small;
+}
