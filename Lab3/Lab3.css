@@ -1,0 +1,191 @@
+body {
+    font-family: 'Young Serif', serif;
+    background-image: url(staff/FFTablet_1100x.progressive.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+header {
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    align-items: center;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size:150px;
+    margin-top: 0;
+    font-weight: lighter;
+    margin-bottom: 0;
+    
+}
+h2 {
+    margin-right: 10px;
+}
+h3 {
+    color: white;
+    text-align: center;
+    margin-top: -32;
+}
+h4 {
+    color: white;
+    font-weight:100;
+    position: absolute;
+    left: 2%;
+
+}
+.anim {
+    width: 100px;
+}
+.header {
+    display: flex;
+    justify-content:space-between;
+    margin-right: 32px;
+    width: 70%;
+    align-items: center;
+    margin-top: 12px;
+}
+button {
+    background-color: transparent;
+    color: white;
+    padding: 8px 32px 8px 32px;
+    border: 2px solid white;
+    float: right;
+}
+.bot {
+    width: 220px;
+    height: 160px;
+    position: absolute;
+    bottom: 30px;
+    left: 2%;
+}
+.im {
+    width: 300px;
+    height: 171px;
+    position: absolute;
+    right: 2%;
+    bottom: 30px;
+}
+.imm {
+    width: 302px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 70%);
+}
+
+
+.hire {
+    display: none;
+}
+.text1 {
+    display: none;
+}
+.fix {
+    width: 300px;
+}
+
+.h4-1 {
+    display: none;
+}
+.h4-2 {
+    display: block;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+.hire {
+    display: contents;
+    
+}
+.anim {
+    display: none;
+} 
+button {
+    display: none;
+}
+.header {
+    width: 60%;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: auto;  
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content:right;
+    margin-right: 0;
+    align-items:end ;
+    float: right;
+}
+h1 {
+    display: none;
+}
+h2 {
+    font-size: 12px;
+    font-weight: 100;
+    
+}
+h3 {
+    margin-top: 16px; 
+}
+.text1 {
+    display: block;
+    margin-bottom: 0; 
+    
+}
+.text2 {
+    display: none;
+    
+}
+.imm {
+    display: none;
+}
+.fix {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.im {
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 140%); 
+}
+h5 {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    padding-top: 130px;
+    font-weight: 100;
+    word-spacing: 10px;
+}
+.bot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -170%);
+    width: 700px;
+    font-size: x-large;
+}
+
+p {
+    text-align: center;
+}
+.h4-1 {
+    display: block;
+    margin-top: 0;
+}
+.h4-2 {
+    display: none;  
+}
+
+}
