@@ -1,0 +1,70 @@
+.App {
+  width: clamp(600px, 60%, 1200px);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  color: whitesmoke;
+}
+:root {
+  --header-grid-cols: 4;
+  --calendar-height: 600px;
+}
+header {
+ width: 100%;
+ height: 130px;
+ display: grid;
+ grid-template-columns: repeat(var(--header-grid-cols), 1fr);
+ column-gap: 20px;
+ row-gap: 20px;
+ margin-bottom: 40px;
+ position: sticky;
+ top: 0;
+ z-index: 10;
+ background-color: var(--main-bg-color);
+ font-family: Arial;
+}
+
+header>div:first-child {
+  width:100%;
+height: 100%;
+  grid-column-start: 1;
+  grid-column-end: calc(var(--header-grid-cols) + 1);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.content-wrapper {
+  width: 100%;
+  height: var(--calendar-height);
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+ }
+ 
+ .content-wrapper>.header {
+  width:100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+ }
+
+.content-wrapper .content-item {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bolder;
+  transition: 0.25s;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+ }
+ 
+ .content-wrapper .content-item:hover {
+  transform: scale(1.1) ;
+ }

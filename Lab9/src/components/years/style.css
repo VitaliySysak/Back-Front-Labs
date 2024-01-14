@@ -1,0 +1,27 @@
+.years-wrapper {
+ grid-template-rows: repeat(6,1fr);
+ grid-template-columns: repeat(5,1fr);
+
+}
+
+.years-wrapper>div:first-child {
+ grid-column-start: 1;
+ grid-column-end: 6;
+}
+
+.years-wrapper .arrow-right,
+.years-wrapper .arrow-left {
+ cursor: pointer;
+ transition: 0.25s;
+}
+.years-wrapper .arrow-right {
+ margin-left: 20px;
+}
+.years-wrapper .arrow-left {
+ margin-right: 20px;
+}
+
+.years-wrapper .arrow-right:hover,
+.years-wrapper .arrow-left:hover {
+ transform: scale(1.1);
+}

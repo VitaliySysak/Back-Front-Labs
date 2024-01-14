@@ -1,0 +1,15 @@
+.event-wrapper {
+ padding: 5px;
+ padding-right: 25px;
+ border-radius: 2.5px;
+ background-color: whitesmoke;
+ color: black;
+ width: fit-content;
+ height: fit-content;
+ position: relative;
+}
+
+.event-wrapper  #event-close {
+ position: absolute;
+ right: 5px;
+}

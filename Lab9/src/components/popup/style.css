@@ -1,0 +1,29 @@
+.popup-wrapper {
+ position: absolute;
+ top: 0;left:0;
+ background-color: whitesmoke;
+ padding: 20px;
+ border-radius: 25px;
+ color: black;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ z-index: 20;
+}
+.popup-wrapper  #popup-close {
+ position: absolute;
+ top: 20px;
+ right: 20px;
+}
+
+.popup-wrapper input {
+ width: -webkit-fill-available;
+ margin-right: 10px;
+}
+
+.popup-wrapper .popup-description textarea {
+ resize: none;
+ width: -webkit-fill-available;
+ margin-right: 10px;
+ height: 100px;
+}

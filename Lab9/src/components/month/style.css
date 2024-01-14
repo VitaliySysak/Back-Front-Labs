@@ -1,0 +1,24 @@
+.month-wrapper {
+ grid-template-columns: repeat(7, 1fr);
+ grid-template-rows: 40px 30px repeat(auto-fill, 90px);
+}
+
+.month-wrapper>div:first-child {
+ grid-column-start: 1;
+ grid-column-end: 8;
+}
+
+.month-wrapper .day-name {
+ justify-self: center;
+ align-self: center;
+}
+
+.month-wrapper .day {
+ grid-column-start: var(--day-col-start);
+ justify-self: center;
+ align-self: center;
+ font-size: 42px;
+}
+.green {
+    background-color: green;
+}

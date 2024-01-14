@@ -1,0 +1,9 @@
+.months-wrapper {
+ grid-template-columns: repeat(3, 1fr);
+ grid-template-rows: repeat(5, 1fr);
+}
+
+.months-wrapper>div:first-child {
+ grid-column-start: 1;
+ grid-column-end: 4;
+}

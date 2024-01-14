@@ -1,0 +1,45 @@
+.day-wrapper {
+ overflow-y: auto;
+ row-gap: 0;
+ padding-top: 20px;
+}
+.day-wrapper .hours-wrapper {
+ height: 100px;
+ display: flex;
+}
+
+.day-wrapper .hours-wrapper:last-child {
+ height: 0;
+}
+
+.day-wrapper .hours {
+ height: 100%;
+ width:10%;
+ font-size: 20px;
+ border-right: 2px solid;
+ display: flex;
+ align-items: start;
+ justify-content: center;
+}
+
+.day-wrapper .hours span{
+ position: relative;
+ top: -15px;
+}
+
+.day-wrapper .content {
+ height: 100%;
+ width:90%;
+ border-top: 2px solid;
+ display: flex;
+ flex-wrap: wrap;
+ column-gap: 5px;
+ padding: 2.5px;
+}
+
+.day-wrapper .content .period:hover {
+ width:100%;
+ height: 25%;
+ transform: scale(1.2);
+ border: 1px solid;
+}
