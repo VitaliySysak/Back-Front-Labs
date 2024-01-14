@@ -1,0 +1,180 @@
+[
+ {
+  "title": "title 1",
+  "cost": 15,
+  "imageSrc": "./images/goods-1.webp"
+ },
+ {
+  "title": "title 2",
+  "cost": 15,
+  "imageSrc": "./images/goods-2.webp"
+ },
+ {
+  "title": "title 3",
+  "cost": 20,
+  "imageSrc": "./images/goods-3.webp"
+ },
+ {
+  "title": "title 1",
+  "cost": 5,
+  "imageSrc": "./images/goods-1.webp"
+ },
+ {
+  "title": "title 2",
+  "cost": 11,
+  "imageSrc": "./images/goods-3.webp"
+ },
+ {
+  "title": "title 3",
+  "cost": 20,
+  "imageSrc": "./images/goods-2.webp"
+ },
+ {
+  "title": "title 1",
+  "cost": 6,
+  "imageSrc": "./images/goods-1.webp"
+ },
+ {
+  "title": "title 2",
+  "cost": 7,
+  "imageSrc": "./images/goods-3.webp"
+ },
+ {
+  "title": "title 3",
+  "cost": 9,
+  "imageSrc": "./images/goods-2.webp"
+ },
+ {
+  "title": "title 1",
+  "cost": 10,
+  "imageSrc": "./images/goods-1.webp"
+ },
+ {
+  "title": "title 2",
+  "cost": 14,
+  "imageSrc": "./images/goods-2.webp"
+ },
+ {
+  "title": "title 3",
+  "cost": 20,
+  "imageSrc": "./images/goods-3.webp"
+ },
+ {
+  "title": "title 1",
+  "cost": 5,
+  "imageSrc": "./images/goods-1.webp"
+ },
+ {
+  "title": "title 2",
+  "cost": 3,
+  "imageSrc": "./images/goods-3.webp"
+ },
+ {
+  "title": "title 3",
+  "cost": 7,
+  "imageSrc": "./images/goods-2.webp"
+ },
+ {
+  "title": "title 1",
+  "cost": 5,
+  "imageSrc": "./images/goods-1.webp"
+ },
+ {
+  "title": "title 2",
+  "cost": 15,
+  "imageSrc": "./images/goods-3.webp"
+ },
+ {
+  "title": "title 3",
+  "cost": 20,
+  "imageSrc": "./images/goods-2.webp"
+ }, {
+  "title": "title 1",
+  "cost": 5,
+  "imageSrc": "./images/goods-1.webp"
+ },
+ {
+  "title": "title 2",
+  "cost": 15,
+  "imageSrc": "./images/goods-2.webp"
+ },
+ {
+  "title": "title 3",
+  "cost": 20,
+  "imageSrc": "./images/goods-3.webp"
+ },
+ {
+  "title": "title 1",
+  "cost": 5,
+  "imageSrc": "./images/goods-1.webp"
+ },
+ {
+  "title": "title 2",
+  "cost": 15,
+  "imageSrc": "./images/goods-3.webp"
+ },
+ {
+  "title": "title 3",
+  "cost": 20,
+  "imageSrc": "./images/goods-2.webp"
+ },
+ {
+  "title": "title 1",
+  "cost": 5,
+  "imageSrc": "./images/goods-1.webp"
+ },
+ {
+  "title": "title 2",
+  "cost": 15,
+  "imageSrc": "./images/goods-3.webp"
+ },
+ {
+  "title": "title 3",
+  "cost": 20,
+  "imageSrc": "./images/goods-2.webp"
+ }, {
+  "title": "title 1",
+  "cost": 5,
+  "imageSrc": "./images/goods-1.webp"
+ },
+ {
+  "title": "title 2",
+  "cost": 15,
+  "imageSrc": "./images/goods-2.webp"
+ },
+ {
+  "title": "title 3",
+  "cost": 20,
+  "imageSrc": "./images/goods-3.webp"
+ },
+ {
+  "title": "title 1",
+  "cost": 5,
+  "imageSrc": "./images/goods-1.webp"
+ },
+ {
+  "title": "title 2",
+  "cost": 15,
+  "imageSrc": "./images/goods-3.webp"
+ },
+ {
+  "title": "title 3",
+  "cost": 20,
+  "imageSrc": "./images/goods-2.webp"
+ },
+ {
+  "title": "title 1",
+  "cost": 5,
+  "imageSrc": "./images/goods-1.webp"
+ },
+ {
+  "title": "title 2",
+  "cost": 15,
+  "imageSrc": "./images/goods-3.webp"
+ },
+ {
+  "title": "title 3",
+  "cost": 20,
+  "imageSrc": "./images/goods-2.webp"
+ }
+]

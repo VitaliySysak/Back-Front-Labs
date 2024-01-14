@@ -1,0 +1,27 @@
+.goods {
+ width:64px;
+ aspect-ratio: 1/1;
+ box-sizing: border-box;
+ position: relative
+}
+
+.goods.selected,
+.goods:hover {
+ border: 2px solid var(--main-gold);
+ box-shadow: 0px 0px 27px 0 var(--main-gold);
+ transform: scale(1.15);
+}
+.goods img{
+ width: 100%;
+ object-fit: cover;
+ object-position: center;
+}
+
+.goods .goods-cost {
+ position: absolute;
+ bottom: 5px;
+ right: 5px;
+ color: white;
+ font-size: 1.5em;
+ font-weight: bolder;
+}
