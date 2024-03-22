@@ -1,0 +1,32 @@
+[
+  {
+    "firstName": "firstName-1",
+    "lastName": "lastName-1",
+    "login": "l1",
+    "password": "p1",
+    "token": "a245943b-6878-4c7a-8fe2-563c0251f5d9"
+  },
+  {
+    "firstName": "firstName-2",
+    "lastName": "lastName-2",
+    "login": "l2",
+    "password": "p1",
+    "token": "2a7a78c5-c8a2-4955-bcb3-06698dae7d6a"
+  },
+  {
+    "type": "Admin",
+    "firstName": "admin-1",
+    "lastName": "admin-1",
+    "login": "admin-1",
+    "password": "admin-1",
+    "token": "3f187cef-f8b7-4e19-9744-613c45fdb1f3"
+  },
+  {
+    "type": "Driver",
+    "firstName": "driver1",
+    "lastName": "driver1-2",
+    "login": "driver1",
+    "password": "driver1",
+    "token": "1e55daa8-03db-4f65-8ea4-8798a9ee0b9f"
+  }
+]
